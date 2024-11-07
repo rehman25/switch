@@ -362,10 +362,10 @@ const Sider = () => {
                                     <Input placeholder='Search' prefix={<CiSearch size={20} />} />
                                 </div>
                                 <div className={style.profile}>
-                                    <Dropdown overlay={<Menu items={items2} /> }className={style.Dropdown}>
+                                    <Dropdown overlay={<Menu items={items2} /> } className={style.Dropdown}>
                                             <Space>
                                                 
-                                                <img src={Flag} />
+                                                <img src={Flag} /> 
                                                  <span>English</span> 
                                                 <DownOutlined />
                                             </Space>

@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './SignIn.module.css';
+import style from './Signup.module.css';
 import SignInImage from "../../Images/SignIn_Image.png";
 import LogoImage from "../../Images/Logo_Image.png";
 import { FormInput, FormCheckBox } from '../../components/Basic/FormInput';
@@ -16,7 +16,7 @@ const validationSchema = yup.object().shape({
   rememberMe: yup.boolean(),
 });
 
-const SignIn = () => {
+const Signup = () => {
   const Navigate = useNavigate();
   const {
     control,
@@ -34,7 +34,7 @@ const SignIn = () => {
 
   const handleSubmit = (data) => {
     console.log(data);
-    Navigate('/Package');
+    Navigate('/Home');
   };
 
   return (
@@ -90,4 +90,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default Signup;
