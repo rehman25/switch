@@ -1,10 +1,10 @@
 import React from 'react'
 import { Button } from 'antd';
 
-const button = ({Text,buttonClass , onClick}) => {
+const button = ({Text,buttonClass, onClick}) => {
   return (
     <div>
-      <Button className={buttonClass} onClick={(e) => onClick(e)}>{Text}</Button>
+      <Button className={buttonClass} onClick={onClick} >{Text}</Button>
     </div>
   )
 }

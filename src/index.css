@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
 body {
   margin: 0;
@@ -10,7 +10,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, span, strong, input , select,span,li,button,Table{
-  font-family: Public Sans, sans-serif;
+  font-family: "Red Hat Display", serif;
+  font-weight: 500;
 }
 h1, h2, h3, h4, h5, h6{
   color: black;
