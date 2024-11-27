@@ -1,10 +1,10 @@
 import React, { useState , useEffect } from 'react';
 import style from './AllUsers.module.css'
 import { Table, Input, Pagination, Space  } from 'antd';
-import {  SettingOutlined } from '@ant-design/icons';
-import { CiMenuKebab } from "react-icons/ci";
-import { CiFilter } from "react-icons/ci";
-import { MdErrorOutline } from "react-icons/md";
+// import {  SettingOutlined } from '@ant-design/icons';
+// import { CiMenuKebab } from "react-icons/ci";
+// import { CiFilter } from "react-icons/ci";
+// import { MdErrorOutline } from "react-icons/md";
 import { CiSearch } from "react-icons/ci";
 
 
