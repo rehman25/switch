@@ -32,7 +32,6 @@ const SignIn = () => {
     control,
     formState: { errors },
     handleSubmit,
-    reset
   } = useForm({
     defaultValues: {
       email: '',
