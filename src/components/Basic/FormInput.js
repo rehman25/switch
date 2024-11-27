@@ -64,7 +64,7 @@ const FormCheckBox = ({
               )}
           />
           {errors[name] && (
-              isShowError == true ?
+              isShowError === true ?
                   <p className={ErrorClass}>
                       {errors[name]?.message}
                   </p>

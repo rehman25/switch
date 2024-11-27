@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import style from './sider.module.css'
 import Logo from '../../Images/Logo_Image.png'
 import { IoMdMenu } from "react-icons/io";
-import Flag from "../../Images/language.png"
 import { FaRegUser } from "react-icons/fa";
 import { Menu } from 'antd';
 import AllUsers from '../AllUsers/AllUsers';
@@ -20,26 +19,7 @@ const Sider = () => {
         setMenu(!isMenu);
     }
 
-    const items2 = [
-        {
-            key: '1',
-            label: (
-                <div style={{ display: "flex", alignItems: "center" }}>
-                    <img src={Flag} alt="English" />
-                    <p>English</p>
-                </div>
-            )
-        },
-        {
-            key: '2',
-            label: (
-                <>
-                    <img src={Flag} alt="English" />
-                    <p>French</p>
-                </>
-            )
-        },
-    ];
+
     const items = [
         {
             key: 'AllUsers',

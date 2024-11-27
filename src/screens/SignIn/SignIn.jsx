@@ -11,7 +11,6 @@ import { notification, Spin } from 'antd';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
-// Predefined credentials
 const credentials = {
   email: 'admin@example.com',
   password: 'password123',
@@ -33,6 +32,7 @@ const SignIn = () => {
     control,
     formState: { errors },
     handleSubmit,
+    reset
   } = useForm({
     defaultValues: {
       email: '',
