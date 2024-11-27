@@ -282,13 +282,13 @@ const columns = [
     },
 
 
-    {
-        title: 'Action',
-        key: 'action',
-        fixed: "right",
-        width: 50,
-        render: () => <CiMenuKebab />, // You can add any action icons here
-    },
+    // {
+    //     title: 'Action',
+    //     key: 'action',
+    //     fixed: "right",
+    //     width: 50,
+    //     render: () => <CiMenuKebab />, // You can add any action icons here
+    // },
 ];
 
 const MultiViewTable = () => {
@@ -326,16 +326,16 @@ const MultiViewTable = () => {
                         <Input
                             placeholder="Search..."
                             prefix={<CiSearch size={20} />}
-                            suffix={<CiFilter size={20}  />}
+                            // suffix={<CiFilter size={20}  />}
                             onChange={(e) => onSearch(e.target.value)}
                             style={{ width: 200 }}
                             className={style.inputSearch}
                         />
-                        <SettingOutlined className={style.tableSettings} />
+                        {/* <SettingOutlined className={style.tableSettings} /> */}
                 </div>
                 <div className={style.ViewChange}>
                        
-                        <MdErrorOutline className={style.tableInstruction} />
+                        {/* <MdErrorOutline className={style.tableInstruction} /> */}
                 </div>
 
             </Space>
